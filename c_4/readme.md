@@ -196,3 +196,68 @@ int main(void)
   return 0;
 }
 ```
+```c
+#include <stdio.h>
+
+int main(void) {
+  for(int i=0; i<5; i++)
+    {
+      for(int j=i; j<5-1; j++)
+        {
+          printf(" ");
+        }
+      for(int k=0; k<=i; k++)
+        {
+          printf("*");
+        }
+            printf("\n");
+    }
+  return 0;
+}
+```
+```c
+#include <stdio.h>
+
+int get_integer(void)
+{
+  int value;
+
+  printf("정수를 입력하시오: ");
+  scanf("%d", &value);
+  
+  return value;
+}
+int add(int x, int y){
+return x+y;
+}
+
+int main()
+{
+  int x=get_integer();
+  int y=get_integer();
+  int z=add(x,y);
+
+  printf("두수의 합은 %d입니다.",z);
+}
+```
+```c
+#include<stdio.h>
+
+int factorial(int n)
+{
+  int result = 1;
+  
+  for(int i = 1; i <= n; i++)
+    result *= i;
+  return result;
+}
+
+int main(void)
+{
+  int n;
+  printf("알고 싶은 팩토리얼의 값은? ");
+  scanf("%d", &n);
+  printf("%d!의 값은 %d입니다.\n", n, factorial(n));
+  return 0;
+}
+```

@@ -37,7 +37,7 @@ int coin_toss( void )
   return head; //생성된 변수 값을 반환함
 }
 ```
-# 자동차 게
+# 자동차 게임
 ```c
 #include <stdlib.h>
 #include <stdio.h>

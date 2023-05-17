@@ -1,5 +1,5 @@
 10주차
-# 동전 던지기 게
+# 동전 던지기 게임
 ```c
 #include<stdlib.h>
 #include<stdio.h>
